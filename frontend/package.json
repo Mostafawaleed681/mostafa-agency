@@ -1,0 +1,32 @@
+{
+  "name": "mostafa-agency-frontend",
+  "version": "1.0.0",
+  "description": "Frontend with Payment, Notifications, and Admin Dashboard",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next-i18n-router": "^4.0.0",
+    "i18next": "^23.0.0",
+    "react-i18next": "^13.0.0",
+    "axios": "^1.4.0",
+    "zustand": "^4.3.8",
+    "react-hook-form": "^7.45.0",
+    "tailwindcss": "^3.3.0",
+    "react-icons": "^4.10.1",
+    "date-fns": "^2.30.0",
+    "clsx": "^2.0.0",
+    "@stripe/stripe-js": "^1.46.0",
+    "@stripe/react-stripe-js": "^2.1.1"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.24",
+    "autoprefixer": "^10.4.14"
+  }
+}
